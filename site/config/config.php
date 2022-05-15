@@ -10,6 +10,7 @@
 return [
     'debug' => true,
     'thumbs' => [
-        'driver' => 'im'
+        //'driver' => 'im',
+        //'bin' => '/opt/homebrew/bin/convert' //add custom path to im bin if necessary
     ]
 ];
